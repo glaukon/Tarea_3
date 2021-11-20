@@ -1,0 +1,121 @@
+*  {
+  margin: auto;
+  
+}
+header{
+  background-color: #acacac;
+  display: flex;
+  flex-direction: row;
+  height: 90px;
+}
+
+div.logo {
+  margin: 10px;
+  
+}
+
+div.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mano{
+  width:30px;
+  height:30px;
+  border-radius:150px;
+  
+}
+.menu ul li{
+  float: left; /* Hacemos que el menu se muestre horizontal */
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none; /* Quita los puntos de las listas */
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+
+}
+.menu ul li a:hover {
+  color: #9c0001;
+  font-size: 16px;
+}
+.menu ul li:visited {
+  color: #acacac;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+   
+}
+
+div.titulo h2 {
+  font-size: 45px;
+  margin: 10px;
+  padding: 8px;
+  /*align-items: center;*/
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #acacac;
+  /*justify-content:center;*/
+}
+.card{
+  margin: 100px;
+  /*padding: 1px;*/
+  justify-content: space-between;
+  height: 30px;
+}
+
+footer h2{
+  font-size: 45px;
+  
+}
+  
+.titulos {
+  display: flex;
+  flex-direction: row;
+  font-size: 35px;
+  justify-content:space-between ;
+  
+}
+div.rrss{
+  display: flex;
+  flex-direction: row;
+  font-size: 32px;
+  margin: 8px;
+  padding: 0px;
+  justify-items: right;
+    
+}
+.rrss ul li {
+  list-style-type: none;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  
+  
+}
+.rrss a {
+  text-decoration:none ;
+  color: black;
+}
+h6{
+  font-size: 16px;
+  height: 18px;
+  background-color:#9c0001;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
